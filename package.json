@@ -1,0 +1,55 @@
+{
+  "name": "webtorrent-hybrid-client",
+  "description": "Streaming torrent client",
+  "version": "1.0.6",
+  "author": {
+    "name": "WebTorrent, LLC",
+    "email": "feross@webtorrent.io",
+    "url": "https://webtorrent.io"
+  },
+  "bin": "./bin/cmd.js",
+  "bugs": {
+    "url": "https://github.com/webtorrent/webtorrent-hybrid/issues"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "create-torrent": "^3.23.1",
+    "dotenv": "^4.0.0",
+    "electron-webrtc": "^0.3.0",
+    "exit-on-epipe": "^1.0.1",
+    "express": "^4.16.2",
+    "md5": "^2.2.1",
+    "nodemon": "^1.12.1",
+    "webtorrent": "0.x",
+    "webtorrent-cli": "^1.0.1",
+    "webtorrent-hybrid": "^1.0.6",
+    "xmlbuilder": "^9.0.4"
+  },
+  "devDependencies": {
+    "standard": "*"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "homepage": "http://webtorrent.io",
+  "keywords": [
+    "bittorrent",
+    "bittorrent client",
+    "download",
+    "mad science",
+    "streaming",
+    "torrent",
+    "webrtc",
+    "webrtc data",
+    "webtorrent"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/webtorrent/webtorrent-hybrid.git"
+  },
+  "scripts": {
+    "test": "standard"
+  }
+}
